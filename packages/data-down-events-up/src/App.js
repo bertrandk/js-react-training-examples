@@ -25,7 +25,7 @@ class App extends Component {
       <div className="App">
         <ul>
           <li>First Hello World Clicked: {this.state.helloWorldOne}</li>
-          <li>First Hello World Clicked: {this.state.helloWorldTwo}</li>
+          <li>Second Hello World Clicked: {this.state.helloWorldTwo}</li>
         </ul>
         <HelloWorld onValueChange={this.handleClickOne} />
         <br />
