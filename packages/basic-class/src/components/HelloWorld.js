@@ -14,7 +14,7 @@ class HelloWorld extends React.Component {
   handleClick() {
     let count = this.state.count;
     count++;
-    this.setState({ count: count++ });
+    this.setState({ count });
   }
   render() {
     return (
