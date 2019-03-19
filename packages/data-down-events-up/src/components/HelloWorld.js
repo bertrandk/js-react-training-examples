@@ -15,7 +15,7 @@ class HelloWorld extends React.Component {
     let count = this.state.count;
     count++;
     this.setState({ count }, ()=>{
-        this.props.onCountChange(this.state.count);
+        this.props.onValueChange(this.state.count);
     });
   }
   render() {

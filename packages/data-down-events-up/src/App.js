@@ -5,7 +5,7 @@ import HelloWorld from "./components/HelloWorld";
 
 class App extends Component {
   state = {
-    helloWorldCount: 0,
+    helloWorldOne: 0,
     helloWorldTwo: 0
   };
 
@@ -29,7 +29,6 @@ class App extends Component {
         </ul>
         <HelloWorld onValueChange={this.handleClickOne} />
         <br />
-        
         <HelloWorld onValueChange={this.handleClickTwo} />
       </div>
     );
